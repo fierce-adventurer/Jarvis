@@ -18,7 +18,7 @@ Jarvis Assistant is a Python-based voice assistant that can perform various task
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/fierce-adventurer/jarvis-assistant.git
+   git clone https://github.com/fierce-adventurer/Jarvis.git
    cd jarvis-assistant
    
 2. Install dependencies:
