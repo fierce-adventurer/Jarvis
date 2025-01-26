@@ -143,7 +143,7 @@ def text2speech():
 def screenshot():
     name_img=tt.time()
     
-    name_img = f'C:\\Users\\tripa\\Desktop\\screenshot\\{name_img}.png'
+    name_img = f'C:\\Users\\username\\Desktop\\screenshot\\{name_img}.png'
     img = pyautogui.screenshot(name_img)
     img.show()
 
@@ -219,7 +219,7 @@ if __name__ == "__main__":
 
             elif 'message' in query:
                 user_name = {
-                    'Jarvis' : '+91 9999657854'
+                    'Jarvis' : '+91 YOUR_NAME'
                 }
                 try:
                     speak("To whom you want to whatsapp message?")
@@ -260,7 +260,7 @@ if __name__ == "__main__":
                 os.system('explorer C:\\{}'.format(query.replace('open','')))
 
             elif 'open code' in query:
-                codePath = "C:\\Users\\tripa\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+                codePath = "C:\\Users\\username\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
                 os.startfile(codePath)
 
             elif 'joke' in query:
