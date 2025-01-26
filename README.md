@@ -18,12 +18,12 @@ Jarvis Assistant is a Python-based voice assistant that can perform various task
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/fierce-adventurer/jarvis-assistant.git```
-   ```cd jarvis-assistant```
+   git clone https://github.com/fierce-adventurer/jarvis-assistant.git
+   cd jarvis-assistant
    
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
    
 3. Set up your secrets_1.py file:
    python
@@ -33,7 +33,7 @@ Jarvis Assistant is a Python-based voice assistant that can perform various task
    
 4. Run the assistant:
    ```bash
-   python jarvis.py```
+   python jarvis.py
    
 
 ## Usage
@@ -50,7 +50,7 @@ Jarvis Assistant is a Python-based voice assistant that can perform various task
 - Python 3.x
 - Required libraries:
   ```bash
-  pip install pyttsx3 speechrecognition smtplib pyautogui wikipedia pywhatkit newsapi clipboard nltk pyjokes```
+  pip install pyttsx3 speechrecognition smtplib pyautogui wikipedia pywhatkit newsapi clipboard nltk pyjokes
   
 
 ## Contributing
